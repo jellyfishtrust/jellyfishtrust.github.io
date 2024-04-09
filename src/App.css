@@ -1,0 +1,45 @@
+html, body, .root, .App {
+  font-size: 16px;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.App {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+}
+
+input {
+  margin-bottom: 1rem;
+}
+
+label  {
+  font-size: 0.75rem;
+  text-align: left;
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+}
+
+button {
+  visibility: hidden;
+}
+
+p {
+  margin: 0;
+  font-size: .875rem;
+  color: white;
+}
+
+.error {
+  color: red !important;
+}
